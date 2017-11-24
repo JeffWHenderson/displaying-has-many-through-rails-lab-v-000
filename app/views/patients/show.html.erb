@@ -3,5 +3,6 @@
 
 
 <% @patient.appointments.each do |appointment| %>
+  <%= appointment.doctor %>
   <%= appointment.human_date %>
 <% end %>
