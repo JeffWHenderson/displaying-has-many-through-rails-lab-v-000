@@ -3,6 +3,6 @@
 
 
 <% @patient.appointments.each do |appointment| %>
-  <span style="color:blue"><%= appointment.doctor.name %></span>
+  <span style="color:red"><%= appointment.doctor.name %></span>
   <%= appointment.human_date %>
 <% end %>
