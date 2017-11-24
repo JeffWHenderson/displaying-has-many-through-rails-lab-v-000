@@ -1,6 +1,6 @@
 class AppointmentsController < ApplicationController
   def index
-    redirect_to :'show'
+    render show
   end
 
   def show
