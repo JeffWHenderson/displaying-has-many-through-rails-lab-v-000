@@ -4,5 +4,6 @@ class AppointmentsController < ApplicationController
   end
 
   def show
+    @appointments = Appointment.all
   end
 end
