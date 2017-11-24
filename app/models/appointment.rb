@@ -8,6 +8,6 @@ class Appointment < ActiveRecord::Base
     # year = self.appointment_datetime.strftime('%Y')
     # time = self.appointment_datetime.strftime('%H:%M')
     #"#{month} #{day} #{year}, at #{time}"
-    self.appointment_datetime.strftime('%B %d %Y at %H:%M')
+    self.appointment_datetime.strftime('%B %d, %Y at %H:%M')
   end
 end
