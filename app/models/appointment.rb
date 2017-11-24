@@ -6,7 +6,7 @@ class Appointment < ActiveRecord::Base
   def human_date
     month = self.appointment_datetime.strftime('%B')
     day = self.appointment_datetime.strftime('%d')
-    year = self.appointment_datetime.strftime('%y')
+    year = self.appointment_datetime.strftime('%Y')
     time = self.appointment_datetime.strftime('%B')
     "#{month} #{day} #{year}, at #{time}"
   end
