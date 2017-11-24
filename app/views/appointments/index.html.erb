@@ -1,5 +1,3 @@
-"inside appointment index page"
-
 <% @appointments.each do |appointment| %>
   <%= link_to "#{appointment.doctor.name}", doctor_path("#{appointment.doctor.id}") %><br> 
 <% end %>
