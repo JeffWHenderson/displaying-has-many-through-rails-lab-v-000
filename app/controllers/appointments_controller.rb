@@ -1,6 +1,6 @@
 class AppointmentsController < ApplicationController
   def index
-    raise ActionController::RoutingError
+    raise 'ActionController::RoutingError'
   end
 
   def show
