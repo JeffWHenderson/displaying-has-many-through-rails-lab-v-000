@@ -2,6 +2,6 @@
  <h3><%= @doctor.department %></h3>
 
 <% @doctor.appointments.each do |a| %>
-  <%= a.appointment_datetime %>
+  <%= a.appointment_datetime %><br>
   <%= a.patient_id %>
 <% end %>
