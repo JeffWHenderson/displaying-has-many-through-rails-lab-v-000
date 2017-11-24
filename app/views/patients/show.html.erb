@@ -2,4 +2,6 @@
 
 
 
-<%= @patient.appointments %>
+<% @patient.appointments.each do |appointment| %>
+  <%= appointment.human_date %>
+<% end %>
