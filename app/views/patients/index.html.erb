@@ -1,3 +1,4 @@
 <% @patients.each do |patient| %>
   <%= patient.name %>
+  <%= patient.appointments.count %><br>
 <% end %>
