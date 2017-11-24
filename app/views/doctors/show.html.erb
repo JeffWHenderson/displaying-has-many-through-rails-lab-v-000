@@ -3,6 +3,6 @@
 
 <% @doctor.appointments.each do |a| %>
   <%= a.appointment_datetime %><br>
-  <%= a.patient.names %>
+  <%= a.patient.name %>
 
 <% end %>
