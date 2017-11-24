@@ -4,6 +4,8 @@ class Appointment < ActiveRecord::Base
 
   # Appointments have appointment_datetime
   def human_date
-    self.appointment_datetime
+    month = self.appointment_datetime
+
+    "#{month} day year, at time"
   end
 end
